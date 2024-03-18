@@ -1,6 +1,7 @@
 main{
     padding: 20px;
     color: rgb(116, 116, 116);
+    position: relative;
 }
 
 .navbar{
@@ -209,6 +210,13 @@ main{
 
 .pic button{
     float: right;
+    background-color: rgba(44, 44, 236, 0.788);
+    color: #fff;
+    border: rgba(44, 44, 236, 0.788);
+}
+
+.pic button:hover{
+    background-color: rgb(23, 23, 197);
 }
 
 .sect-end{
